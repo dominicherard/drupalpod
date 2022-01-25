@@ -16,10 +16,16 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "drupal/addtoany": "^1.16",
         "drupal/admin_toolbar": "^3.0",
         "drupal/core-composer-scaffold": "^9.2",
         "drupal/core-project-message": "^9.2",
         "drupal/core-recommended": "^9.2",
+        "drupal/devel": "^4.1",
+        "drupal/pathauto": "^1.8",
+        "drupal/scheduler": "^1.4",
+        "drupal/simple_gmap": "^3.0",
+        "drupal/token": "^1.10",
         "drush/drush": "^10.6"
     },
     "conflict": {
