@@ -1,0 +1,23 @@
+uuid: ead3f333-6410-40d1-8d72-166390387e37
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.hotel
+  module:
+    - text
+id: node.hotel.body
+field_name: body
+entity_type: node
+bundle: hotel
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

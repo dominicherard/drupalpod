@@ -1,0 +1,30 @@
+uuid: b1b7321f-7510-425c-ac73-614954ca4e96
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:18f2341c-7773-4cd4-93e6-9ca43aa9c862'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: welcometothehotelsofsydneyaustralia
+theme: bartik
+region: sidebar_first
+weight: -7
+provider: null
+plugin: 'block_content:18f2341c-7773-4cd4-93e6-9ca43aa9c862'
+settings:
+  id: 'block_content:18f2341c-7773-4cd4-93e6-9ca43aa9c862'
+  label: 'Welcome to the Hotels of Sydney, Australia'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

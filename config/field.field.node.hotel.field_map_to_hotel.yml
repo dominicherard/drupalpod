@@ -1,0 +1,19 @@
+uuid: e61c45ba-1a39-49c0-a919-e4c6c101467b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_map_to_hotel
+    - node.type.hotel
+id: node.hotel.field_map_to_hotel
+field_name: field_map_to_hotel
+entity_type: node
+bundle: hotel
+label: 'Map to Hotel'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

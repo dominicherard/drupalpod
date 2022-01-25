@@ -1,0 +1,18 @@
+uuid: fda44648-4685-4f8b-91f0-b50d2c62f9b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.hotel
+id: node.hotel.title
+field_name: title
+entity_type: node
+bundle: hotel
+label: Hotel
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
