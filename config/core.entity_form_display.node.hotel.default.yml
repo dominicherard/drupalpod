@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.hotel.field_hotel_phone
     - field.field.node.hotel.field_hotel_picture
     - field.field.node.hotel.field_hotel_website
+    - field.field.node.hotel.field_landmarks
     - field.field.node.hotel.field_map_to_hotel
     - image.style.thumbnail
     - node.type.hotel
@@ -60,6 +61,16 @@ content:
     settings:
       placeholder_url: ''
       placeholder_title: ''
+    third_party_settings: {  }
+  field_landmarks:
+    type: entity_reference_autocomplete
+    weight: 126
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   field_map_to_hotel:
     type: string_textfield

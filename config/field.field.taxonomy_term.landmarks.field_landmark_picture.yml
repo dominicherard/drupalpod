@@ -1,0 +1,38 @@
+uuid: 22e793cc-2f3d-47b5-b16e-39fbbe2c3c25
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_landmark_picture
+    - taxonomy.vocabulary.landmarks
+  module:
+    - image
+id: taxonomy_term.landmarks.field_landmark_picture
+field_name: field_landmark_picture
+entity_type: taxonomy_term
+bundle: landmarks
+label: 'Landmark Picture'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: landmarks
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: '500 KB'
+  max_resolution: ''
+  min_resolution: 500x500
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

@@ -1,0 +1,21 @@
+uuid: efd68ae7-7077-4437-b240-a04e8746f9a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_landmarks
+    - node.type.hotel
+id: node.hotel.field_landmarks
+field_name: field_landmarks
+entity_type: node
+bundle: hotel
+label: Landmarks
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings: {  }
+field_type: entity_reference

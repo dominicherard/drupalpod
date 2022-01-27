@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.hotel.field_hotel_phone
     - field.field.node.hotel.field_hotel_picture
     - field.field.node.hotel.field_hotel_website
+    - field.field.node.hotel.field_landmarks
     - field.field.node.hotel.field_map_to_hotel
     - node.type.hotel
   module:
@@ -36,4 +37,5 @@ hidden:
   field_hotel_phone: true
   field_hotel_picture: true
   field_hotel_website: true
+  field_landmarks: true
   field_map_to_hotel: true

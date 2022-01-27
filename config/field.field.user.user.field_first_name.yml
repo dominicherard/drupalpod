@@ -1,0 +1,20 @@
+uuid: 76769d25-dcb8-4ca1-85b5-b19e869b62b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_first_name
+  module:
+    - user
+id: user.user.field_first_name
+field_name: field_first_name
+entity_type: user
+bundle: user
+label: 'First Name'
+description: 'Don''t worry. Your first name will only be used when you leave comments on hotels.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
